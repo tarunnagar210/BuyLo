@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    border:border-box;
+    /* background-color:#334155; */
+
+
+}
+.navbar{
+    height: 60px;
+    background-color: #0F172A;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 58;
+    width: 100px;
+
+}
+.logo{
+    background-image: url(image.png);
+    background-size: cover;
+    height: 58px;
+    width: 100%;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+.nav-adders{
+    height: 40px;
+    margin-top: 15px;
+}
+.firstadd{
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin-left: 14px;
+    text-align: center;
+
+}
+.lastadd{
+    font-size: 16px;
+    margin-left: 3px;
+    text-align: center;
+}
+.add-icon{
+    height: 18px;
+    width: 20px;
+    display: flex;
+    text-align: center;
+    height: 45px;
+    
+}
+.searchbar{
+    display: flex;
+    width: 620px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-evenly;
+}  
+.selectsearch{
+background-color: #fcfcfcdf;
+width: 40px;
+text-align: center;
+border-top-left-radius: 6px;
+border-bottom-left-radius: 6px;
+border: none;
+}
+.searchplace{
+    width: 100%;
+    border: none;
+}
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color:#38BDF8 ;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.cart-label{
+    font-size: .85rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.cart-icon{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    width: 100px;
+}
+.profile-icon{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-label{
+      font-size: .85rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.order-details{
+    width: 60px; 
+    
+
+}
+.returns{
+    font-size:0.7rem ;
+}
+.order{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/*panel*/
+.panel{
+    height: 40px;
+    color: #ffffff;
+    background-color:  #1e293b; 
+    display: flex;
+    align-items: center;
+     gap: 25px;
+
+}
+
+.panel-option{
+    width: 90%;
+    display: inline;
+    display: flex;
+    justify-content: space-between;  
+}
+
+/* hero-section */
+.hero-section{
+    background-image: url(hero-image.jpg);
+    background-size:cover ;
+    height: 280px;
+}
+/* suggestion box */
+.suggeted{
+display: inline-block;
+}
+.suggestion-label{
+    font-size: 1.2rem;
+    margin: 5px 0px 0px 10px;
+    display: inline
+}
+.view-all-section{
+    text-align: right;
+    margin-right: 20px;
+
+    text-decoration-style: none;
+}
+.suggestion-shop{
+    display: flex;
+   justify-content: space-evenly;
+    
+
+}
+.box{
+    /* border: 2px solid black; */
+    height: 220px; 
+    width: 10%;
+    /* background-color: #d4d4d8;  */
+    border-radius: 4px;
+    /* box-shadow: 5px 5px 5px 10px #d4d4d8; */
+}
+.boxcontent{
+    font-size:0.95rem;
+    margin-left: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+.image1{
+    background-image: url(killer\ flip\ flop.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 185px;
+    
+}
+.image2{
+    background-image: url(earbuds.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 185px;
+}
+.image3{
+    background-image: url(sneaker.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 170px;
+}
+.image4{
+    background-image: url(clog.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 185px;
+}
+.image5{
+    background-image: url(shirt.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 165px;
+    margin-top: 15px;
+
+}
+.image6{
+    background-image: url(headphone.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 185px;
+    display: flex;
+    
+    
+}
+.image7{
+    background-image: url(smart\ watch.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 170px;
+    margin-top: 10px;
+
+}
+.image8{
+    background-image: url(tab.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 165px;
+    margin-top: 15px;
+}
+.sponsored-label {
+    font-size: 1.2rem;
+    margin: 15px 0px 0px 15px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    
+}
+.sponsored-brand{
+    display: flex;
+   justify-content: space-evenly;
+   
+}
+.brand-box{
+    height: 300px ;
+    width: 25%;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+.brand-image1{
+     background-image: url(puma-sponsored.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+   
+}
+.brand-image2{
+     background-image: url(boat-sponsored.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+}
+.brand-image3{
+     background-image: url(noise-sponsord.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    
+}
+.brand-image4{
+     background-image: url(safari\ sponsored.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+.ad-label{
+    font-size: 1.2rem;
+    margin: 15px 0px 0px 15px;
+
+}
+.ad-banner{
+    height: 300px;
+    width: 80%;
+    background-image: url(go\ boult\ sponsored.webp);
+     background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.foot-panel{
+    margin-top: 20px;
+    background-color: #000000;
+    color: white;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-list-head{
+    font-size: 1rem;
+    margin-top: 20px;
+ }
+ u a{
+    display: block;
+    font-size: .75rem;
+
+}
+.foot-panel2{
+    height: 40px;
+   background-color: #000000; 
+   color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+ .soical-logo{
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+ }
